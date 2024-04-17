@@ -158,7 +158,7 @@ const makeImage1 = async () => {
             
             function writeHighPrice() {
                 ctx.textAlign = 'center';
-                ctx.fillText("$"+maxValue.toFixed(2) , xhigh, yhigh - 20);
+                ctx.fillText("$"+maxValue.toFixed(2) , xhigh - 5, yhigh - 20);
             }
             if(dataPoints.slice(0, 11).indexOf(maxValue) == -1 && dataPoints.slice(-5).indexOf(maxValue) == -1)
               writeHighPrice();
