@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "^1.6.5",
+    "canvas": "^2.11.2",
+    "date-fns": "^3.3.1",
+    "fs-extra": "^11.2.0",
+    "imagekit": "^4.1.4",
+    "mysql2": "^3.9.1",
+    "nodemailer": "^6.9.9",
+    "twitter-api-v2": "^1.16.0"
+  }
+}
