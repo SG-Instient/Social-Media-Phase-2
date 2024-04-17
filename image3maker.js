@@ -335,5 +335,5 @@ async function makeImage3() {
   }
 }
 
-makeImage3();
+// makeImage3();
 module.exports = makeImage3;
