@@ -1,11 +1,11 @@
 const axios = require('axios');
 
 const postToInsta = async (env, msg, imgUrls) => {
-    let accessToken = 'EAAE4zcyR9ckBO7OSFiwazH9VeVXTOhNd4D374BnkzsPl5raFuSmmAl5F9cSfZBfZBBywabGTS14ExSEWFmJvPKriAETh2iHyQzFNaVNlHuZBAJVn0rAteghVIZC6EZApZBbwZCzYKZCF34kl6p7Gk8aml34o5u8QFnjT64pE9JuEexTwb9diUaIZCOJ3f'; // Replace with your Instagram User Access Token
+    let accessToken = 'EAAE4zcyR9ckBO5q0M702rIvOVgOGOW0OyEy0NMMINuLB8UAfrnJ4ZB5XughyZCZA6T6OI0K6JdQo5tRa8ZAZCJaMxkyRR7l9ikXDMn0rfRuODz1QKBK9COnAck1bV2M0N3JLfYlQTwwzI7BDHCtYEgvB7TvIruuXzRKt3VeN3a9be6Yc2CVt39vZBR'; // Replace with your Instagram User Access Token
     let ig_user_id = "17841463575872069";
 
     if(env === "prod") {
-        accessToken = 'EAAKUZCBefgZBUBOxGMlBoGjgK4WcAmL85xYWKpIPp35wEriDmFeT9XRWjpyMaSDcfzwAfSOZC03ZCVUpcC9hBRemc5HnkGqVxWgvrWdEQ5Kzy6uCt6fY8iynBFuZBhNYvk9N4YZCSQ7BMymwSS7ZCxycSOmINRDuxvmPmg0hKvgAicytKB69DI6FFDIYZA1pamE70eG3haZBB';
+        accessToken = 'EAAKUZCBefgZBUBO513ynhf9QgfMjg1t8MFpZBf3WaRVcaZCeaZCJZBrpqU0gjkDp5ISZBR47JESVH9PHBV4xWo8UMpSBtFkWNGbVQ5aQXH1lY4WtANZA7eEOhOcTI4UQii9djmSV2yTA1a3505hVFnvZCssKv3JWrQpGHfyBJpuhzLKFMtdDQdG6WEmCLHcbZCMem9rDZBV7D1x';
         ig_user_id = "17841457653112981";
     }
 

@@ -5,11 +5,11 @@ const FormData = require('form-data');
 const postToFB = async (env, msg, imgPaths) => {
     const postToFBIn = async (msg, imgUrls) => {
         let pageId = '204962206024781';
-        let accessToken = 'EAAEqbMZB9EPABO5v6yvadM1RHfQ7zwg3Yh9HucZCZC7XkE5hRfs3vpvphr1ybahMVwZA6QHyaXdwKCnfvtN76MCZCDPrqzmrtVq3KyYOGkGtMBGoiZCceRVX2uMz9NPNIRvwZBLMl5rD8h4ddinADmxLF9UVZBlIspxwE32Ux9nD9eD07VndYp6XG7eFs9RzBt4ZD';
+        let accessToken = 'EAAEqbMZB9EPABOwZBOm2SVrLUcf9cOjpr9Q96oPArfFcqZBmraQ92X95U9ZCIw8hZBqZBqioV1hnsNZBD5NpEXf3F0x5DLzZBtKIio8PPOVhCBxegZAUrhYijPvcwrqX6MDa2g3ugw43J4LZCHvvnE7eVlnbzvX7LFyo3Gqb33IdCTVIJCR0NHABXUUYHAko0kkL4ZD';
     
         if (env === "prod") {
             pageId = '106284748445131';
-            accessToken = 'EAAvKUvSvgpoBOZCuKCMT7auRl4SsccBEQI2R5n44bhYzK2fWTQZASa8BDLUpvCyM5N47kqtF7jKILv18jVL6Oi5lqFhsDv0tbGGZBWBsb0p7630cowgYRHMyHZBGVvpZBhABUmpXOZBNUMtUUtIUekyy5tfN30F7HmtZCiIKXnOSkdIjCzxmUkgt0gfvW04eVrGtuwMoOcT9YZBhy4UZD';
+            accessToken = 'EAAvKUvSvgpoBO2KhsjSLwW9x8uEY7WhaTvh5gJakf1017fq8yj08Ad5WhdlkvpK1xZCtoy5e684bHZC981u9P5spFxmj8utDzU6yQLqkIafPjLYvav7r6GQCgFfnvOh6CudxTzQZBRF5KuFMZBZCPluj4BmcAg6qQzYPA6gZCHqR5wlCZAtecT5Yfi9HsYPaU5qbbUmNkT5IVkFf5cZD';
         }
     
         // Step 1: Upload Photos
